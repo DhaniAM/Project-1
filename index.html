@@ -1,0 +1,662 @@
+!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!--Head element -> title, style, script, link, meta, base
+		The <base> element specifies the base URL and/or target for all relative URLs in a page.
+			<base href="http://www.mywebstite.com" target="_blank">
+
+		Define the character set used:
+			<meta charset="UTF-8">
+
+		Define keywords for search engines:	
+			<meta name="keywords" content="HTML, CSS, JavaScript">
+
+		Define a description of your web page:	
+			<meta name="description" content="Free Web tutorials">
+
+		Define the author of a page:
+			<meta name="author" content="Ramadhani A.M.">
+
+		Refresh document every 30 seconds:	
+			<meta http-equiv="refresh" content="30">
+
+		Setting the viewport to make your website look good on all devices:	
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Project 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="HTML, CSS, Web Design, Web Development">
+	<meta name="description" content="My first web page">
+	<meta name="author" content="Ramadhani Adjar Mustaqim">
+	<base target="_parent">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#paragraph">Paragraph</a></li>
+			<li><a href="#quotation">Quotations</a></li>
+			<li><a href="#color">Colors</a></li>
+			<li><a href="#link">Links</a></li>
+			<li><a href="#text_formatting">Text Formatting</a></li>
+			<li><a href="#heading">Heading</a></li>
+			<li><a href="#element_attribute">Elements & Attributes</a></li>
+			<li><a href="#image">Image & Picture</a></li>
+			<li><a href="#list">Lists</a></li>
+			<li><a href="#table">Table</a></li>
+			<li><a href="#form">Forms</a></li>
+			<li><a href="#computer_code">Computer Code</a></li>
+			<li><a href="#iframe">Iframe</a></li>
+			<li><a href="#structure">Structure</a></li>
+			<li><a href="#audio">Audio</a></li>
+			<li><a href="#video">Video</a></li>
+			<li><a href="#progress_bar">Progress Bar</a></li>
+			<li><a href="#svg">SVG</a></li>
+			<li><a href="#canvas">Canvas</a></li>
+			<br>
+		</ul>
+	</nav>
+<div style="margin-left:20%;padding:1px 16px;height:1000px;">
+
+
+	<h1 id="sololearn">Sololearn & W3schools</h1>
+	<br> <hr>	
+	<!-- This is just comment-->
+
+
+	<h2 id="paragraph">Paragraph</h2>
+	<p title="Paragraph">This is a paragraph with p element (hover me)</p>
+	<pre>This is a pre element
+this will use    any space in html
+ksdfhshf
+nalalal mmdas nd
+ansd   fa faksf 
+	</pre>
+	<p style="font-size: 4vw">This is <b>responsive text using vw.</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+	<hr>
+
+
+	<h2 id="quotation">Quotations</h2>
+	<blockquote src="http://www.google.com">
+		This is a <b>Blockquote</b>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident.
+	</blockquote>
+	<p>This a <q>Short quotation with q</q></p>
+	<p>The <abbr title="World Health Organization">WHO</abbr> is <b>abbr</b></p>
+	<address>
+		Jl. Bangau Putih <br>
+		Beruntung Jaya <br>
+		Banjarmasin
+		Indonesia
+	</address>
+	<p><b>Cite</b> for Work Title, ex: <cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+	<bdo dir="rtl">This text is backward</bdo>
+	<hr>
+
+
+	<h2 id="color">Colors</h2>
+	<a target="_blank" href="https://www.w3schools.com/colors/colors_names.asp">All Color Names click here!!!</a>
+	<hr>
+
+
+	<h2 id="link">Links</h2>
+	<a href="http://www.google.com" target="_blank" title="open google">Link with _blank</a>
+	<br>
+	<a href="http://www.google.com" target="_self" title="open google">Link with _self</a>
+	<br>
+	<a href="http://www.google.com" target="_top" title="open google">Link with _top</a>
+	<br>
+	<a href="http://www.google.com" target="_parent" title="open google">Link with _parent</a>
+	<br>
+	<a href="http://www.google.com" target="_blank"><img src="D:\Pictures\Wallpaper\3d_colorful_squares-wide1.jpg" width="20%"></a>
+	<br>
+	<a href="mailto:dhani.a.mm@gmail.com">Click here to send email to Dhani</a>
+	<br>
+	<button onclick="document.location='http://www.google.com'">Button link</button>
+	<br><br>
+	<a class="link_color" href="#">Link with Color adjustment</a>
+
+
+	<h2 id="text_formatting">Text Formatting</h2>
+		<p>Regular text</p>
+		<p><b>Bold</b></p>
+		<p><big>Big</big></p>
+		<p><i>Italic</i></p>
+		<p><em>Emphasise</em></p>
+		<p><small>Small</small></p>
+		<p><strong>Strong</strong></p>
+		<p><sub>Subscripted</sub></p>
+		<p><sup>Superscripted</sup></p>
+		<p><u>Undeline</u></p>
+		<p><ins>Inserted</ins></p>
+		<p><s>Strike-through</s></p>
+		<p><del>Deleted</del></p>
+	<hr>
+
+
+	<h2 id="heading">Heading</h2>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+	<hr>
+
+
+	<h2 id="element_attribute">Elements & Attributes</h2>
+		<p>Paragraph is an element and this one has no attributes</p>
+		<p style="color:red">This text has a color attributes with style</p>
+		<p align="center">This text has attributes <b>without</b> style</p>
+	<hr width="50%" align="left">
+	
+
+	<h2 id="image">Image & Picture</h2>
+		<img src="D:\Pictures\Wallpaper\thumb-1920-601048.jpg" alt="No Man Sky" width="90%" border="2px">
+		<br>
+		<p><img src="D:/Pictures/Wallpaper/Colorfull-Apple-HD-Wallpaper-Dekstop.jpg" alt="apple" style="width:20%; float:right">Image will <b>float</b>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
+		<p><img src="D:/Pictures/Wallpaper/Colorfull-Apple-HD-Wallpaper-Dekstop.jpg" alt="apple" style="width:20%; float:left">Image will <b>float</b>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
+	
+
+		<h3 class="no_float" align="center">Image Map (find clickable part of image)</h3>
+		<img src="D:/Pictures/Wallpaper/hd-wallpapers-1080p-29.jpg" alt="image_map" usemap="#workmap" width="500px">
+			<map name="workmap">
+				<area shape="rect" coords="100,50,200,300" href="#" alt="click me">
+			</map>
+		<br>
+
+		<div style="height:300px; background-image:url('D:/Pictures/Wallpaper/W10.jpg'); background-size:50%;">
+			<h2 style="color:grey;">Background Image with background-size 50%</h2>
+		</div>
+		<div style="height:300px; background-image:url('D:/Pictures/Wallpaper/W10.jpg'); background-size:50%; background-repeat: no-repeat; ">
+			<h2 style="color:grey">Background Image with background-size 50%, background-repeat= no-repeat</h2>
+		</div>
+		<div style="height:300px; background-image:url('D:/Pictures/Wallpaper/W10.jpg'); background-size:50%; background-attachment: fixed; ">
+			<h2 style="color:grey;">Background Image with background-size 50%, background-attachment= fixed</h2>
+		</div>
+		<div style="height:300px; background-image:url('D:/Pictures/Wallpaper/W10.jpg'); background-size:cover;">
+			<h2 style="color:grey;">Background Image with background-size= cover</h2>
+		</div>
+		<div style="height:300px; background-image:url('D:/Pictures/Wallpaper/W10.jpg'); background-size:100% 100%;">
+			<h2 style="color:grey;">Background Image with background-size= 100% 100%</h2>
+		</div>
+
+	<h2 class="picture">Picture (has multiple image source)</h2>
+		<picture>
+			<source srcset="D:/Pictures/Wallpaper/Apple-Colorful-background-creative-logo_1024x768.jpg" media="(max-width: 600px)">
+			<source srcset="D:/Pictures/Wallpaper/1453660.jpg" media="(max-width: 1000px)">
+			<img src="D:/Pictures/Wallpaper/autumn_bench-1366x768.jpg" alt="bench" style="width:auto">
+		</picture>
+	<hr>
+
+
+	<h2 id="list">Lists</h2>
+		<h3>Ordered list</h3>
+			<ol>
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="a">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="A">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="i">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="I">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="1" start="40">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+			<ol type="1" start="40">
+				<li>One</li>
+				<ol>
+					<li>Blue</li>
+					<li>Red</li>
+				</ol>
+				<li>Two</li>
+				<li>Three</li>
+			</ol>
+
+		<h3>Unordered list</h3>
+			<ul>
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ul>
+			<ul type="square">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ul>
+			<ul type="circle">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ul>
+			<ul type="none">
+				<li>One</li>
+				<li>Two</li>
+				<li>Three</li>
+			</ul>
+		
+		<h3>Description List</h3>
+			<dl>
+				<dt>Coffe</dt>
+				<dd>Black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>White cold drink</dd>
+			</dl>
+	<hr>
+
+
+	<h2 id="table">Tables</h2>
+		<table border="1px" align="center">
+			<caption>Days in Week</caption>
+			<tr>
+				<th bgcolor="yellow">Sunday</th>
+				<th bgcolor="cyan">Monday</th>
+				<th bgcolor="pink">Tuesday</th>
+			</tr>
+			<tr>
+				<td>One</td>
+				<td>Two</td>
+				<td>Three</td>
+			</tr>
+			<tr>
+				<td rowspan="2"><br></td>
+				<td colspan="2"><br></td>
+			</tr>
+			<tr>
+				<td><br></td>
+				<td><br></td>
+			</tr>
+		</table>
+		<br>
+	<hr>
+
+
+	<h2 id="form">Forms</h2>
+		<form action="http://www.google.com" method="post" autocomplete="on"> <!--or get-->
+			<label>Username</label>
+				<input type="text" name="username" required maxlength="10">
+			<br>
+			<label>Password</label>
+				<input type="password" name="password">
+			<br>
+
+			<input type="radio" name="radio" id="Radio_A" value="Radio_A">
+			<label for="Radio_A">Radio A</label>
+			<input type="radio" name="radio" id="Radio_B" value="Radio_B">
+			<label for="Radio_B">Radio B</label>
+			<br>
+
+			<input type="checkbox" name="checkbox" id="checkbox_A" value="checkbox_A">
+			<label for="checkbox_A">Checkbox A</label>
+			<input type="checkbox" name="checkbox" id="checkbox_B" value="checkbox_B">
+			<label for="checkbox_B">Checkbox B</label>>
+			<br>
+
+			<label for="favcolor">Favorite color:</label>
+			<input type="color" name="favcolor" id="favcolor" value="#ff0000">
+			<br>
+
+			<label for="birthday">Birthday:</label>
+			<input type="date" name="birthday" id="birthday">
+			<br>
+
+			<label for="birthday">Birthday with limit:</label>
+			<input type="date" name="birthday" id="birthday" min="1995-01-01" max="2030-12-31">
+			<br>
+
+			<label for="birtday_time">Birthday (date and time):</label>
+			<input type="datetime-local" name="birtday_time" id="birtday_time">
+			<br>
+
+			<label for="month">Month:</label>
+			<input type="month" name="month" id="month">
+			<br>
+
+			<label for="week">Week:</label>
+			<input type="week" name="week" id="week">
+			<br>
+
+			<label for="time">Select time:</label>
+			<input type="time" name="time" id="times">
+			<br>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email">
+			<br>
+
+			<label for="file">Choose your file:</label>
+			<input type="file" name="file" id="file">
+			<br>
+
+			<label for="number">Choose number between 1 and 10</label>
+			<input type="number" name="number" id="number">
+			<br>
+
+			<label for="vol">Volume (1-100)</label>
+			<input type="range" name="vol" id="vol" min="0" max="100">
+			<br>
+
+			<label for="gsearch">Search google:</label>
+			<input type="search" name="gsearch" id="gsearch">
+			<br>
+
+			<label for="phone">Enter your phone number:</label>
+			<input type="tel" name="phone" id="phone" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1234-5678-9123">
+			<br>
+
+			<label for="homepage">Add your homepage:</label>
+			<input type="url" name="homepage" id="homepage">
+			<br>
+
+			<input type="reset"><br>
+			<input type="submit" name="submit" value="submit">
+			<br>
+
+			<label for="cars_one">Choose a car:</label>
+				<select id="cars_one" name="cars_one">
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="fiat">Fiat</option>
+				  <option value="audi">Audi</option>
+				 </select>
+			<label for="cars_two">Choose a bike:</label>
+				<select id="cars_two" name="cars_two" size="2">
+				  <option value="volvo">Volvo</option>
+				  <option value="saaaab">Saab</option>
+				  <option value="fiat">Fiat</option>
+				  <option value="audi">Audi</option>
+				</select>
+			<label for="cars_three">Choose a multiple car:</label>
+				<select id="cars_three" name="cars_three" multiple>
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="fiat">Fiat</option>
+				  <option value="audi">Audi</option>
+				</select>
+			<br><br>
+
+			<fieldset>
+				<legend>Personalia:</legend>
+				<label for="fname">First name:</label><br>
+					<input type="text" name="fname" id="fname" placeholder="First name"><br>
+				<label for="lname">Last name:</label><br>
+					<input type="text" name="lname" id="lname" placeholder="Last name"> <br><br>
+				<input type="submit" name="submit">
+			</fieldset>
+			<br>
+
+			<h3>Browsers</h3>
+			<input list="browsers" placeholder="choose">
+			<datalist id="browsers">
+				<option value="Chrome"></option>
+				<option value="Mozilla Firefox"></option>
+				<option value="Edge"></option>
+				<option value="Safari"></option>
+			</datalist>
+
+			<h3>Contact me</h3>	
+				<input type="text" name="name"placeholder="Name">
+				<br>
+				<input type="email" name="email" placeholder="Email">
+				<br>
+				<textarea name="message" placeholder="Your message" style="width:300px; height:300px"></textarea>
+				<br>
+				<button type="button" value="submit" name="submit">Submit</button>
+
+			<h3></h3>
+		</form>
+		<p><a href="https://www.w3schools.com/html/html_form_input_types.asp">For more Form Input type and attributes</a></p>
+	<hr>
+
+
+	<h2 id="computer_code">Computer Code</h2>
+		<p><a href="https://www.w3schools.com/html/html_entities.asp">HTML Character reference</a></p>
+		
+		<h4>&ltCode&gt</h4>
+		<code>
+			x = y + z <br>
+			z = 2y - x
+		</code>
+		<br> <br>
+
+		<h4>&ltkbd&gt for keyboard input</h4>
+		<p>Save by pressing <kbd>Ctrl + S</kbd></p>
+		<br>
+
+		<h4>&ltsamp&gt for sample output computer program</h4>
+		<samp>File not found on the server</samp>
+		<br>
+
+		<h4>Code inside &ltpre&gt</h4><pre><code>
+x = y + z;
+y= x + 3z;
+z= 9y -2x
+			</code></pre>
+		
+		<var>This is a variable &ltvar&gt</var>
+
+
+	<h2 id="iframe">Iframe</h2>
+		<iframe src="D:\Documents\Code C\Sololearn\HTML\All About HTML5.html" height="200px" width="100%" title="google"style="border:none;" ></iframe>
+		<iframe src="D:\Documents\Code C\Sololearn\HTML\All About HTML5.html" height="200px" width="100%" title="google" ></iframe>
+		<iframe height="200px" width="100%" title="google" name="iframe_a"></iframe>
+		<p><a href="D:\Documents\Code C\Sololearn\HTML\All About HTML5.html" target="iframe_a">This will open a website</a></p>
+	<hr>
+
+
+	<h2 id="structure">HTML5 Structure</h2>
+		<header>
+			<h1>This is Header</h1>
+			<p> May contain one or more heading elements (h1 - h6), logo or icon, authorship information</p>
+		</header>
+
+		<nav>
+			<a href="#">This is Nav </a>
+			<a href="#">Home</a>
+			<a href="#">Services</a>
+			<a href="#">About Us</a>
+		</nav>
+
+		<article>
+			<h3>This is article</h3>	
+			<p>Blablabla blabla bla blalbala blablaba</p>
+				<aside>
+				<p><b><i>This is aside, like sidebar</i></b></p>
+				</aside>
+		</article>
+		<br>
+
+		<section>
+			<h3>This is section</h3>
+			<p>Content or image</p>
+		</section>
+		<br>
+
+		<figure>
+			<img src="D:/Pictures/Wallpaper/1080p-hd-wallpaper-1080p-backgrounds-hd.jpg" alt="trees" width="100%">
+			<figcaption>This is figure with figcaption</figcaption>
+		</figure>
+
+		<footer>
+			<p><i>This is footer</i></p>
+			<p>Contact information</p>
+			<p>Privacy policy</p>
+			<p>Social media icons</p>
+			<p>Terms of service</p>
+			<p>Copyright information</p>
+			<p>Sitemap and related document</p>
+			<p>Back to top links</p>
+		</footer>
+	<hr>
+
+
+	<h2 id="audio">Audio</h2>
+		<audio src="D:\Music\Best\Coldplay - Hypnotised (Official Lyric Video).mp3" controls>Audio is not supported by your browser</audio>
+		<p>Audio format should be avaible in <b>MP3</b> and <b>WAV</b></p>
+		<!--OR-->
+		<audio controls>
+			<source src="" type="audio/MP3">
+			<source src="" type="audio/WAV">
+			Audio is not supported by your browser
+		</audio>
+		<p>Above is example (look at HTML code)</p>
+		<p>Attribute for audio is <b>controls, autoplay, loop</b></p>
+	<hr>
+
+
+	<h2 id="video">Video</h2>
+		<video controls src="D:\Videos\[Adikfilm.com] - Ghostbusters.1984.BluRay 720p.mp4" width="100%">
+			Video is not supported by your browser
+		</video>
+		<p>Attribute is <b>controls, autoplay, loop</b></p>
+	<hr>
+
+
+	<h2 id="progress_bar">Progress Bar</h2>
+		<progress min="0" max="100" value="40"></progress>
+		<progress></progress>
+	<hr>
+	
+
+	<h2 id="svg">SVG (Scalable Vector Graphic)</h2>
+		<svg width="1000px" height="600px">
+			<circle cx="100px" cy="60px" r="50" fill="cyan" stroke="black"/>
+			<rect width="300px" height="50px" x="200px" y="10px" rx="15" ry="15" fill="orange" stroke="red"/>
+			<line x1="50" y1="300" x2="100" y2="200" style="stroke:black; stroke-linecap: round; stroke-width:10" />
+			<polyline style="stroke-linejoin:miter; stroke:black; stroke-width:10; fill:none;" points="200 300, 300 200, 400 300"/>
+			<ellipse cx="250" cy="400" rx="200" ry="50" fill="red"/>
+			<polygon points="50 500, 100 600, 150 550, 150 500" fill="purple" stroke="black"/>
+		</svg>
+		<svg width="100%" height="100px">
+			<rect width="100px" height="100px" fill="orange" stroke="black">
+				<animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="1"/>
+			</rect> 
+		</svg>
+			<svg width="100%" height="100px">
+			<rect width="100px" height="100px" fill="maroon" stroke="black">
+				<animate attributeName="x" from="0" to="300" dur="3s" fill="remove" repeatCount="1"/>
+			</rect> 
+		</svg>
+		</svg>
+			<svg width="100%" height="100px">
+			<rect width="100px" height="100px" fill="darkblue" stroke="black">
+				<animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="1" begin="click"/>
+			</rect> 
+		</svg>
+		<svg height="130" width="500">
+			<defs>
+				<lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+					<stop offset="0%" style="stop-color: rgb(255,255,0); stop-opacity:1"/>
+					<stop offset="100%" style="stop-color:rgb(255,0,0); stop-opacity:1" />
+				</lineargradient>
+			</defs>
+			<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)"/>
+				<text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>>
+			Sorry, your browser does not support SVG.
+		</svg>
+		<hr>
+
+
+	<h2 id="canvas">Canvas</h2>
+		<canvas id="canvas_line" width="500px" height="200px" style="border:1px solid black">
+			Your broser does not support canvas.
+		</canvas>
+		<br> <br>
+
+		<canvas id="canvas_circle"  width="500px" height="200px" style="border:1px solid black">
+			Your broser does not support canvas.
+		</canvas>
+		<br><br>
+
+		<canvas id="canvas_text"  width="500px" height="200px" style="border:1px solid black">
+			Your browser does not support canvas.
+		</canvas>
+		<br><br>
+
+		<canvas id="gradient"  width="500px" height="200px" style="border:1px solid black">
+			Your browser does not support canvas.
+		</canvas>
+		<br><br>
+
+
+		<canvas id="gradient_two"  width="500px" height="200px" style="border:1px solid black">
+			Your browser does not support canvas.
+		</canvas>
+
+
+	<div style="height:300px"></div>
+</div>
+s
+<script type="text/javascript">
+	var line = document.getElementById("canvas_line");
+	var ctx = line.getContext("2d");
+	ctx.moveTo(0,0);
+	ctx.lineTo(500,200);
+	ctx.stroke();
+
+
+	var circle = document.getElementById("canvas_circle");
+	var ctx = circle.getContext("2d");
+	ctx.beginPath();
+	ctx.arc(200, 100, 90, 0, 2 * Math.PI);
+	ctx.stroke();
+
+
+	var text = document.getElementById("canvas_text");
+	var ctx = text.getContext("2d");
+	ctx.font = "30px Arial";
+	ctx.fillText("Hello World", 10, 50);
+	var gtx = text.getContext("2d");
+	gtx.font = "30px Arial";
+	gtx.strokeText("Hello World", 10, 100);
+
+
+	var gradient = document.getElementById("gradient");
+	var ctx = gradient.getContext("2d");
+	// Create gradient
+	var grd = ctx.createLinearGradient(0, 0, 200, 0);
+	grd.addColorStop(0, "red");
+	grd.addColorStop(1, "white");
+	// Fill with gradient
+	ctx.fillStyle = grd;
+	ctx.fillRect(10, 10, 150, 80);
+
+
+	var gradientTwo = document.getElementById("gradient_two");
+	var ctx = gradientTwo.getContext("2d");
+	// Create gradient
+	var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+	grd.addColorStop(0, "red");
+	grd.addColorStop(1, "white");
+	// Fill with gradient
+	ctx.fillStyle = grd;
+	ctx.fillRect(10, 10, 150, 80);
+</script>
+</script>
+</body>
+</html>

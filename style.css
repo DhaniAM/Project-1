@@ -1,0 +1,53 @@
+body{
+	margin:0px;
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:18%;
+	background-color: #f1f1f1;
+	position:fixed;
+	height:100%;
+	overflow: auto;
+	top:0px;
+}
+nav ul li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	background-color: #555;
+	color: white;
+}
+nav li a:active{
+	background-color:red;
+	color:white;
+}
+
+/*---LINK----*/
+
+a.link_color:link{
+	color:red;
+	text-decoration: none;
+}
+a.link_oolor:visited{
+	color:purple;
+}
+a.link_color:hover{
+	color:green;
+}
+a.link_color:active{
+	color:cyan;
+}
+
+
+/*---float*/
+h3.no_float{
+	clear:both;
+}
+
+
